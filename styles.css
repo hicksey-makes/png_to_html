@@ -1,0 +1,106 @@
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: menu;
+}
+.item3 {
+  grid-area: main;
+}
+.item4 {
+  grid-area: right;
+}
+.item5 {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'menu main main'
+    'menu footer footer';
+
+}
+
+.grid-container > div {
+  padding: 20px 0;
+}
+.item3 a {
+  display: block;
+}
+
+.item5 .arrow-head {
+  transform: rotate(-90deg);
+  font-size: 40px;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.brand-icon {
+  transform: rotate(-90deg);
+  font-size: 60px;
+  display: block;
+  width: 40px;
+  padding-left: 10px;
+}
+
+.bold {
+  font-weight: bold;
+  /* font-size: 50px; */
+}
+
+.colored {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-align {
+  margin-left: 55px;
+  margin-right: -150px;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.header {
+  margin-left: 55px;
+}
+
+#signature {
+  margin-left: 75px;
+  font-size: 60px;
+  font-style: italic;
+  margin-bottom: -20px;
+}
+
+.item3 > p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding-top: 0;
+}
+
+.item3 > a {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.border-line {
+  border-bottom: 5px solid black;
+  width: 350px;
+  margin: 10px 0;
+}
+
+.inline {
+  margin-left: 5px;
+}
+
+.light {
+  font-weight: lighter;
+}
