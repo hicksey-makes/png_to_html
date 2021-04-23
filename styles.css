@@ -1,3 +1,24 @@
+/* Global */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+/* grid 1 */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'menu main main'
+    'menu footer footer';
+  margin-bottom: -80px;
+}
+
 .item1 {
   grid-area: header;
 }
@@ -14,35 +35,43 @@
   grid-area: footer;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header'
-    'menu main main'
-    'menu footer footer';
-
-}
-
 .grid-container > div {
   padding: 20px 0;
 }
-.item3 a {
-  display: block;
+
+/* grid 2 styles */
+.grid-container2 {
+  display: grid;
 }
 
-.item5 .arrow-head {
-  transform: rotate(-90deg);
-  font-size: 40px;
-  display: inline-block;
-  margin-right: 40px;
-}
-
+/* grid1 item2 */
 .brand-icon {
   transform: rotate(-90deg);
   font-size: 60px;
   display: block;
   width: 40px;
   padding-left: 10px;
+}
+
+.menu-align {
+  margin-left: 55px;
+  /* margin-right: -150px; */
+}
+
+/* grid1 item3 */
+.item3 > p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding-top: 0;
+}
+
+.item3 > a {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.item3 a {
+  display: block;
 }
 
 .bold {
@@ -54,19 +83,26 @@
   color: red;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.inline {
+  margin-left: 5px;
 }
 
-.menu-align {
-  margin-left: 55px;
-  /* margin-right: -150px; */
+.light {
+  font-weight: lighter;
 }
 
-img {
-  margin-top: 20px;
-  border-radius: 50%;
+.border-line {
+  border-bottom: 5px solid black;
+  width: 350px;
+  margin: 10px 0;
+}
+
+ /* grid1 item5 */
+.item5 .arrow-head {
+  transform: rotate(-90deg);
+  font-size: 40px;
+  display: inline-block;
+  margin-right: 40px;
 }
 
 .header {
@@ -80,27 +116,16 @@ img {
   margin-bottom: -20px;
 }
 
-.item3 > p {
-  margin-top: 3px;
-  margin-bottom: 3px;
-  padding-top: 0;
+.alignment {
+  margin-top: 0;
+  padding-top:0;
+  margin-left: -90px;
 }
 
-.item3 > a {
-  font-size: 0.9rem;
-  margin-top: 10px;
+.grow {
+  width: 220px;
 }
 
-.border-line {
-  border-bottom: 5px solid black;
-  width: 350px;
-  margin: 10px 0;
-}
-
-.inline {
-  margin-left: 5px;
-}
-
-.light {
-  font-weight: lighter;
-}
+/* .upshift {
+  margin-top: 0px;
+} */
