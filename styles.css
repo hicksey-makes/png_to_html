@@ -126,6 +126,9 @@ img {
   width: 220px;
 }
 
+.item2 img {
+  margin-top: 0px;
+}
 /* .upshift {
   margin-top: 0px;
 } */
