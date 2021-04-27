@@ -43,6 +43,15 @@ img {
 .grid-container2 {
   display: grid;
 }
+/* grid1 item1 */
+#welcome {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 1.7rem;
+  transform: scale(0.8, 1.2);
+  font-weight: bold;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
 
 /* grid1 item2 */
 .brand-icon {
@@ -60,7 +69,7 @@ img {
 
 /* grid1 item3 */
 .item3 {
-  margin-top: 5px;
+  margin-top: 25px;
   margin-left: 25px;
   line-height: 0.4;
   font-family: 'Cantarell', sans-serif;
@@ -129,7 +138,7 @@ hr {
 }
 
 #signature {
-  margin-left: 75px;
+  margin-left: 85px;
   font-size: 60px;
   margin-bottom: -20px;
   font-family: 'Dancing Script', cursive;
@@ -152,6 +161,6 @@ hr {
 }
 
 .item2 img {
-  margin-top: 0px;
+  margin-top: 7px;
 
 }
