@@ -87,10 +87,11 @@ img {
   margin-bottom: 0;
 }
 .line {
-  margin: 0;
-  /* margin-top: 0; */
+  margin-left: 0;
+  margin-top: 3px;
+  margin-right: 0;
   width: 300px;
-  /* height: 5px; */
+  height: 3px;
 }
 
 .line img {
