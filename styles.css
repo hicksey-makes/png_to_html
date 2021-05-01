@@ -51,6 +51,11 @@ hr {
 }
 
 /* grid item1 */
+.grow {
+  width: 220px;
+  border-radius: 50%;
+}
+
 #welcome {
   font-family: 'Cantarell', sans-serif;
   font-size: 1.7rem;
@@ -60,9 +65,16 @@ hr {
   margin-bottom: 10px;
 }
 
-.grow {
-  width: 220px;
-  border-radius: 50%;
+#signature {
+  margin-left: 85px;
+  font-size: 60px;
+  margin-bottom: -20px;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* item 2 */
+.item2 img {
+  margin-top: 7px;
 }
 
 /* item3 */
@@ -130,34 +142,7 @@ hr {
   margin-left: 5px;
 }
 
-.light {
-  font-weight: lighter;
-}
-
-.border-line {
-  border-bottom: 5px solid black;
-  width: 350px;
-  margin: 10px 0;
-}
-
- /* grid1 item5 */
-.item5 .arrow-head {
-  transform: rotate(-90deg);
-  font-size: 40px;
-  display: inline-block;
-  margin-right: 40px;
-}
-
-.header {
-  margin-left: 55px;
-}
-
-#signature {
-  margin-left: 85px;
-  font-size: 60px;
-  margin-bottom: -20px;
-  font-family: 'Dancing Script', cursive;
-}
+/* Mie brand icon */
 
 .alignment {
   margin-top: 0;
@@ -168,8 +153,4 @@ hr {
 .upshift {
   margin-left: 120px;
   margin-top: 43px;
-}
-
-.item2 img {
-  margin-top: 7px;
 }
