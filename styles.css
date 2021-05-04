@@ -6,10 +6,17 @@ a {
 
 img {
   margin-top: 20px;
-
 }
 
-/* grid 1 */
+hr {
+  margin: 5px 0;
+  border-radius: 45%;
+  height: 2px;
+  background-color: black;
+  width: 300px;
+}
+
+/* grid global styles */
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -28,22 +35,21 @@ img {
 .item3 {
   grid-area: main;
 }
-.item4 {
-  grid-area: left;
-}
-.item5 {
-  grid-area: footer;
-}
 
 .grid-container > div {
   padding: 20px 0;
 }
 
-/* grid 2 styles */
-.grid-container2 {
-  display: grid;
+.menu-align {
+  margin-left: 55px;
 }
-/* grid1 item1 */
+
+/* grid item1 */
+.grow {
+  width: 220px;
+  border-radius: 50%;
+}
+
 #welcome {
   font-family: 'Cantarell', sans-serif;
   font-size: 1.7rem;
@@ -53,21 +59,19 @@ img {
   margin-bottom: 10px;
 }
 
-/* grid1 item2 */
-.brand-icon {
-  transform: rotate(-90deg);
+#signature {
+  margin-left: 85px;
   font-size: 60px;
-  display: block;
-  width: 40px;
-  padding-left: 10px;
+  margin-bottom: -20px;
+  font-family: 'Dancing Script', cursive;
 }
 
-.menu-align {
-  margin-left: 55px;
-  /* margin-right: -150px; */
+/* item 2 */
+.item2 img {
+  margin-top: 7px;
 }
 
-/* grid1 item3 */
+/* item3 */
 .item3 {
   margin-top: 44px;
   margin-left: 14px;
@@ -77,6 +81,11 @@ img {
   font-weight: 300;
   font-size: .8rem;
 }
+
+.item3 a {
+  display: block;
+}
+
 .item3 > p {
   margin-top: 3px;
   margin-bottom: 3px;
@@ -86,25 +95,26 @@ img {
 .info p:last-of-type {
   margin-bottom: 0;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.colored {
+  color: red;
+}
+
 .line {
-  margin: 0;
-  /* margin-top: 0; */
-  width: 300px;
-  /* height: 5px; */
+  margin-left: 0;
+  margin-top: 3px;
+  margin-right: 28px;
+  width: 320px;
+  height: 3px;
 }
 
 .line img {
   margin-top: -20px;
   padding-top: 0;
-}
-.item3 a {
-  display: block;
-}
-
-.bold {
-  font-weight: bold;
-
-  /* font-size: 50px; */
 }
 
 .contact a {
@@ -113,64 +123,20 @@ img {
   font-weight: 500;
   margin-top: 0px;
 }
+
 .contact a:first-of-type {
   margin-top: -5px;
 }
+
 .enlarge {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
-hr {
-  margin: 5px 0;
-  border-radius: 45%;
-  height: 2px;
-  background-color: black;
-  width: 300px;
-}
-
-.shrinky {
-  line-height: 1.2;
-}
-.colored {
-  color: red;
-}
-
-/* .shrinky {
-  line-height: 0;
-} */
 
 .inline {
   margin-left: 5px;
 }
 
-.light {
-  font-weight: lighter;
-}
-
-.border-line {
-  border-bottom: 5px solid black;
-  width: 350px;
-  margin: 10px 0;
-}
-
- /* grid1 item5 */
-.item5 .arrow-head {
-  transform: rotate(-90deg);
-  font-size: 40px;
-  display: inline-block;
-  margin-right: 40px;
-}
-
-.header {
-  margin-left: 55px;
-}
-
-#signature {
-  margin-left: 85px;
-  font-size: 60px;
-  margin-bottom: -20px;
-  font-family: 'Dancing Script', cursive;
-}
-
+/* Mie brand icon */
 .alignment {
   margin-top: 0;
   padding-top:0;
@@ -179,15 +145,5 @@ hr {
 
 .upshift {
   margin-left: 120px;
-  margin-top: 45px;
-}
-
-.grow {
-  width: 220px;
-  border-radius: 50%;
-}
-
-.item2 img {
-  margin-top: 7px;
-
+  margin-top: 43px;
 }
