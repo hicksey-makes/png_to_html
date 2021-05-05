@@ -5,6 +5,7 @@ Convert a PNG file into HTML (clickable links) utilizing Adobe Illustrator and C
 # Steps Involved
 * Section the png image into css and svg created portions.
 * Use adobe illustrator to create an SVG of said portion (the brand icon).
+* Find like fonts to match the png image. 
 * Write html, and use css grid for positioning and styling of other elements. 
 * Position the SVG underneath the html/css code. 
 
