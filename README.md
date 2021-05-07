@@ -1,6 +1,7 @@
 # PNG to HTML
 Convert a PNG file into HTML (clickable links) utilizing Adobe Illustrator and CSS Grid [hypothetical job].
 
+![Mie Signature](https://user-images.githubusercontent.com/36872516/117516848-84cd6180-af57-11eb-92ab-9ccaa9f1729a.png)
 
 ## Steps Involved
 * Section the png image into css and svg created portions.
