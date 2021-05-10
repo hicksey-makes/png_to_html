@@ -2,7 +2,7 @@
 Convert a PNG file into HTML (clickable links) utilizing Adobe Illustrator and CSS Grid [hypothetical job].
 
 
-<img src="imgs/Mie Signature.png" alt="mie brand icon" width="200px" />
+<img src="imgs/Mie Signature.png" alt="mie brand icon" width="350px" />
 
 ## Steps Involved
 * Section the png image into css and svg created portions.
