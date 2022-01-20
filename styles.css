@@ -20,10 +20,11 @@ hr {
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header'
-    'menu main main'
-    'menu footer footer';
+    'header header header header'
+    'menu empty main main'
+    'menu empty footer footer';
   margin-bottom: -80px;
+  position: relative;
 }
 
 .item1 {
@@ -32,8 +33,16 @@ hr {
 .item2 {
   grid-area: menu;
 }
+.empty {
+  grid-area: empty;
+  min-width: 55px;
+  max-width: 56px;
+}
 .item3 {
   grid-area: main;
+  /* position: absolute; */
+  /* left: 350px; */
+  /* top: 30px; */
 }
 
 .grid-container > div {
@@ -141,9 +150,23 @@ hr {
   margin-top: 0;
   padding-top:0;
   margin-left: -90px;
+  min-width: 800px;
+  max-width: 900px;
 }
 
 .upshift {
   margin-left: 120px;
   margin-top: 43px;
+}
+
+@media only screen and (min-width: 750px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header header header header header header header'
+      'menu empty main main main main main main main main main main'
+      'menu empty footer footer footer footer footer footer footer footer footer footer';
+    margin-bottom: -80px;
+    position: relative;
+  }
 }
