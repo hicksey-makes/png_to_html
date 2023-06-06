@@ -1,4 +1,14 @@
 /* Global */
+@font-face {
+  font-family: "priestacy";
+  src: url("priestacy/priestacy.otf");
+  font-weight: ;
+  font-style: ;
+}
+
+body {
+  letter-spacing: 1px;
+}
 a {
   text-decoration: none;
   color: black;
@@ -35,8 +45,7 @@ hr {
 }
 .empty {
   grid-area: empty;
-  min-width: 55px;
-  max-width: 56px;
+  width: 30px;
 }
 .item3 {
   grid-area: main;
@@ -55,7 +64,7 @@ hr {
 
 /* grid item1 */
 .grow {
-  width: 220px;
+  width: 243px;
   border-radius: 50%;
 }
 
@@ -64,20 +73,24 @@ hr {
   font-size: 1.7rem;
   transform: scale(0.8, 1.2);
   font-weight: bold;
-  margin-left: 0;
-  margin-bottom: 10px;
+  margin-left: -47px;
+  margin-bottom: 0px;
 }
 
 #signature {
   margin-left: 85px;
-  font-size: 60px;
+  font-size: 56px;
   margin-bottom: -20px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'priestacy';
+}
+
+div.item1 {
+  padding: 10px 0;
 }
 
 /* item 2 */
 .item2 img {
-  margin-top: 7px;
+  margin-top: 0px;
 }
 
 /* item3 */
@@ -88,7 +101,11 @@ hr {
   font-family: 'Cantarell', sans-serif;
   transform: scale(1.2, 1.5);
   font-weight: 300;
-  font-size: .8rem;
+  font-size: .7rem;
+}
+
+div.contact {
+  line-height: 1.5;
 }
 
 .item3 a {
@@ -99,6 +116,10 @@ hr {
   margin-top: 3px;
   margin-bottom: 3px;
   padding-top: 0;
+}
+
+.info {
+  font-size: 0.8rem;
 }
 
 .info p:last-of-type {
@@ -129,7 +150,7 @@ hr {
 .contact a {
   margin-bottom: 9px;
   font-size: .6rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 0px;
 }
 
@@ -155,8 +176,8 @@ hr {
 }
 
 .upshift {
-  margin-left: 120px;
-  margin-top: 43px;
+  margin-left: 133px;
+  margin-top: 37px;
 }
 
 @media only screen and (min-width: 750px) {
